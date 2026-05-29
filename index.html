@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Chúc Mừng Sinh Nhật</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>🎉 Chúc Mừng Sinh Nhật! 🎂</h1>
+
+        <p class="message">
+            Chúc bạn có một ngày sinh nhật thật vui vẻ,
+            luôn mạnh khỏe, hạnh phúc và đạt được mọi điều mong muốn.
+        </p>
+
+        <p class="wish">
+            ✨ Tuổi mới nhiều niềm vui, nhiều thành công và thật nhiều may mắn! ✨
+        </p>
+
+        <button onclick="showMessage()">Nhấn vào đây 🎁</button>
+
+        <p id="hiddenMessage"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("hiddenMessage").innerHTML =
+                "🎊 Chúc bạn có một tuổi mới thật rực rỡ và đáng nhớ! 🎊";
+        }
+    </script>
+</body>
+</html>
